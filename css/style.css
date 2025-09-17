@@ -1,0 +1,87 @@
+/* style.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  background: #fae6f6;
+  color: #222;
+}
+
+a {
+  color: #f792e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+nav {
+  background: white;
+  border-bottom: 1px solid #fae3e3;
+  padding: 1rem 0;
+}
+
+nav .logo {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+nav .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (min-width: 600px) {
+  nav .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+footer {
+  border-top: 1px solid #fae3e3;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-list li {
+  margin-bottom: 2rem;
+}
