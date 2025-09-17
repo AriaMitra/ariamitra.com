@@ -1,4 +1,4 @@
-/* style.css */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -29,7 +29,7 @@ a:hover {
 }
 
 nav {
-  background: white;
+  background: pink;
   border-bottom: 1px solid #fae3e3;
   padding: 1rem 0;
 }
